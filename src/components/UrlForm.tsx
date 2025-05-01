@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
 import { shortenUrl } from '../hooks/useShortenUrl';
-import bgMobile from './assets/bg-shorten-mobile.svg';
-import bgDesktop from './assets/bg-shorten-desktop.svg';
+// import bgMobile from './assets/bg-shorten-mobile.svg';
+// import bgDesktop from './assets/bg-shorten-desktop.svg';
 
 const UrlForm = () => {
   const [url, setUrl] = useState('');
@@ -60,15 +60,15 @@ const UrlForm = () => {
           max-w-5xl mx-auto px-6 py-10 lg:px-16 lg:py-12
           rounded-lg
           bg-primary-dark-violet
-          bg-no-repeat bg-right-top lg:bg-cover
-          bg-[image:var(--bg-mobile-url)] lg:bg-[image:var(--bg-desktop-url)]
+    bg-no-repeat bg-right-top lg:bg-cover
+    bg-[url('/images/bg-shorten-mobile.svg')] lg:bg-[url('/images/bg-shorten-desktop.svg')]
         "
-        style={
-          {
-            '--bg-mobile-url': `url(${bgMobile})`,
-            '--bg-desktop-url': `url(${bgDesktop})`,
-          } as React.CSSProperties
-        }
+        // style={
+        //   {
+        //     '--bg-mobile-url': `url(${bgMobile})`,
+        //     '--bg-desktop-url': `url(${bgDesktop})`,
+        //   } as React.CSSProperties
+        // }
       >
         <form
           id="url-form-section"

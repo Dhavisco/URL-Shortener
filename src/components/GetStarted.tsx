@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import bgMobile from './assets/bg-boost-mobile.svg';
-import bgDesktop from './assets/bg-boost-desktop.svg';
+// import bgMobile from './assets/bg-boost-mobile.svg';
+// import bgDesktop from './assets/bg-boost-desktop.svg';
 
 const GetStarted = () => {
   // Function to handle the scroll
@@ -16,14 +16,14 @@ const GetStarted = () => {
       className="
         bg-primary-dark-violet text-white py-20 lg:py-16 px-4 sm:px-6 lg:px-8
         bg-no-repeat bg-right-top lg:bg-cover
-        bg-[image:var(--bg-mobile-boost-url)] lg:bg-[image:var(--bg-desktop-boost-url)]
+        bg-[url('/images/bg-boost-mobile.svg')] lg:bg-[url('/images/bg-boost-desktop.svg')]
       "
-      style={
-        {
-          '--bg-mobile-boost-url': `url(${bgMobile})`,
-          '--bg-desktop-boost-url': `url(${bgDesktop})`,
-        } as React.CSSProperties
-      }
+      // style={
+      //   {
+      //     '--bg-mobile-boost-url': `url(${bgMobile})`,
+      //     '--bg-desktop-boost-url': `url(${bgDesktop})`,
+      //   } as React.CSSProperties
+      // }
     >
       {/* Centered Heading */}
       <div className='text-center mb-6 lg:mb-8'>

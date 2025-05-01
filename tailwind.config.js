@@ -20,6 +20,10 @@ export default {
         'neutral-very-dark-blue': 'hsl(255, 11%, 22%)',
         'neutral-very-dark-violet': 'hsl(260, 8%, 14%)',
       },
+      backgroundImage: {
+        'shorten-mobile': "url('/images/bg-shorten-mobile.svg')",
+        'shorten-desktop': "url('/images/bg-shorten-desktop.svg')",
+      },
     },
   },
   plugins: [],
