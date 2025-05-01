@@ -3,7 +3,6 @@
 This is a solution to the [URL shortening API landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ![Screenshot of the Shortly project](./screenshot.png) 
-*(You should replace `screenshot.png` with an actual screenshot of your project)*
 
 ## Table of Contents
 
