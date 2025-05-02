@@ -8,6 +8,7 @@ import Features from "./components/Features";
 import Footer from "./components/Footer";
 import { AnimatePresence } from "framer-motion";
 import GetStarted from "./components/GetStarted";
+import BackToTop from "./components/BackToTop";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         </main>
         <GetStarted />
         <Footer />
+        <BackToTop/>
       </div>
     </AnimatePresence>
   );
